@@ -1,6 +1,6 @@
 angular.module("Nuvem3").controller("Nuvem3Ctrl", function($scope,$http,$filter){
     $scope.valoresAprovados = [
-        {valorEntrada:80000,valorFinanciamento:11000,}
+        { id: 1,valorEntrada:800001,valorFinanciamento:11000,}
     ];
 
     $scope.bancos = [
